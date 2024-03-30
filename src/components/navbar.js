@@ -20,7 +20,7 @@ const links = [
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
-    const showNav = () => setOpen(!open)
+    
 
 
     const topVariants={
@@ -149,7 +149,8 @@ const Navbar = () => {
                      
                     <div className='absolute top-[60px] flex flex-col gap-8'>
                         {links.map(link=>(
-                        <motion.div variants={listitemVariants} className='key={link.title}'>
+                        <motion.div variants={listitemVariants} className= ""
+                        key={link.title}>
                         <Link href={link.url}>
                             {link.title}
                         </Link>

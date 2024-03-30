@@ -1,4 +1,4 @@
-import { FormEvent } from 'react'
+
 import Image from 'next/image'
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";

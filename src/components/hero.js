@@ -5,7 +5,7 @@ import Image from 'next/image'
 import GetStarted from './getStarted'
 import { GoArrowUpRight } from "react-icons/go";
 import Link from 'next/link';
-import MasterClass from '@/app/master-class/page';
+
 import {motion} from 'framer-motion';
 
 
@@ -29,7 +29,7 @@ const Hero = () => {
              </div>
              <div className='flex flex-col gap-4 absolute top-[270px] lg:top-[500px] lg:flex-row z-20'>
                 <GetStarted />
-                <Link href="/master-class"><button className='flex items-center lg:text-[18px] gap-2 w-[296px] lg:w-[325px] bg-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] cursor-pointer hover:bg-transparent hover:transition-all duration-300 hover:text-[#FBBB52] hover:border-[2px] hover:border-[#EBEBEB] '>
+                <Link href='/master-class'><button className='flex items-center lg:text-[18px] gap-2 w-[296px] lg:w-[325px] bg-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] cursor-pointer hover:bg-transparent hover:transition-all duration-300 hover:text-[#FBBB52] hover:border-[2px] hover:border-[#EBEBEB] '>
                     Sign up for monthly masterclass
                     <GoArrowUpRight />
 
@@ -41,6 +41,7 @@ const Hero = () => {
             src="/hero.png"
             layout='fill'
             objectFit='cover'
+            alt="hero" 
             
                          />
                          </div>

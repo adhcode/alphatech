@@ -18,6 +18,7 @@ const InvestmentPlan = () => {
             <Image
             src="/inv1.png"
             layout="fill" 
+            alt="invest" 
                          />
                          </div>
                          <div className="lg:mt-2">
@@ -34,6 +35,7 @@ const InvestmentPlan = () => {
             <Image
             src="/inv2.png"
             layout="fill"
+            alt="invest" 
                          />
                          </div>
                          <div>
@@ -50,6 +52,7 @@ const InvestmentPlan = () => {
             <Image
             src="/inv3.png"
             layout="fill"
+            alt="invest" 
                          />
                          </div>
                          <div>

@@ -49,6 +49,7 @@ const AboutPage = () => {
             <Image
             src="/mission1.png"
             layout="fill"
+            alt="mission"
                          />
                          </div>
                        
@@ -70,6 +71,7 @@ const AboutPage = () => {
             <Image
             src="/mission2.png"
             layout="fill"
+            alt="mission"
                          />
                          </div>
                          
@@ -91,6 +93,7 @@ const AboutPage = () => {
                 <Image className=" "
             src="/eio1.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -104,6 +107,7 @@ const AboutPage = () => {
                 <Image className=" "
             src="/eio2.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -119,6 +123,7 @@ const AboutPage = () => {
                 <Image className=" "
             src="/eio3.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -132,6 +137,7 @@ const AboutPage = () => {
                 <Image className=" "
             src="/eio4.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -152,6 +158,7 @@ const AboutPage = () => {
                 <Image className=" "
             src="/reg.png"
             layout="fill"
+            alt="CAC"
             
                          />
                          </div>

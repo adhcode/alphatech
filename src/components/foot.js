@@ -64,13 +64,16 @@ const Foot = () => {
                         <div className="flex relative">
                             <Image src ="/avatar1.png"
                             width={48}
-                            height={48} className="absolute left-[-30px]" />
+                            height={48} className="absolute left-[-30px]"
+                            alt="avt1" />
                             <Image src ="/avatar2.png"
                             width={56}
-                            height={56} className="z-[100]" />
+                            height={56} className="z-[100]"
+                            alt="avt2"  />
                             <Image src ="/avatar3.png"
                             width={48}
-                            height={48} className="absolute left-[40px]" />
+                            height={48} className="absolute left-[40px]"
+                            alt="avt3"  />
                         </div>
                         <div className="flex flex-col items-center justify-center" >
                             <p className="flex flex-col items-center mt-4 text-[16px] text-[#101828]">Still have questions?</p>

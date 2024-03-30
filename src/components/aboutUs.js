@@ -17,6 +17,7 @@ const AboutUs = () => {
 <Image className=""
             src="/aboutus.png"
            layout="fill"
+           alt="About Us"
             
                          />
 
@@ -57,6 +58,7 @@ const AboutUs = () => {
 <Image className=""
             src="/joinus1.png"
            layout="fill"
+           alt="Join Us"
             
                          />
 
@@ -79,6 +81,7 @@ const AboutUs = () => {
 <Image className=""
             src="/joinus2.png"
            layout="fill"
+           alt="Join Us"
             
                          />
 
@@ -111,6 +114,7 @@ const AboutUs = () => {
                 <Image className=" "
             src="/eio1.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -124,6 +128,7 @@ const AboutUs = () => {
                 <Image className=" "
             src="/eio2.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -139,6 +144,7 @@ const AboutUs = () => {
                 <Image className=" "
             src="/eio3.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>
@@ -152,6 +158,7 @@ const AboutUs = () => {
                 <Image className=" "
             src="/eio4.png"
             layout="fill"
+            alt="EIO"
             
                          />
                          </div>

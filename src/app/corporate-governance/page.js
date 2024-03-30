@@ -28,6 +28,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="Chairman"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -40,12 +41,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -63,6 +66,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="Co Chair"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -75,12 +79,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -98,6 +104,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="executive director"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -110,12 +117,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -147,6 +156,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="Chief executive officer"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -159,12 +169,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -180,6 +192,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="Chief operational officer"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -192,12 +205,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -215,6 +230,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="Chief Financial Officer"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -227,12 +243,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -248,6 +266,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="head of communication"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -260,12 +279,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -295,6 +316,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="president"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -307,12 +329,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -328,6 +352,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="vice president"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -340,12 +365,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -363,6 +390,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="secretary"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -375,12 +403,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>
@@ -396,6 +426,7 @@ const CorporateGovernance = () => {
             src="/team.png"
             width={120}
             height={120}
+            alt="treasurer"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
@@ -408,12 +439,14 @@ const CorporateGovernance = () => {
             src="/tweet.png"
             width={24}
             height={24}
+            alt="x"
             
                          />
                          <Image className=" "
             src="/insta.png"
             width={24}
             height={24}
+            alt="instagram"
             
                          />
                             </div>

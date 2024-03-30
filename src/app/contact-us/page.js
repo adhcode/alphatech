@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { useState } from "react";
+
 
 
 
@@ -18,8 +18,7 @@ import { useState } from "react";
 
 const ContactUs = () => {
 
-    const [success, setSuccess] = useState(false)
-    const [error, setError] = useState(false)
+    
     return (
         <div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
 
@@ -100,8 +99,8 @@ const ContactUs = () => {
 
  {/* SUBMIT BUTTON */}
  <button className='w-[343px] h-[45px] bg-[#FBBB52] rounded-[24px] lg:text-[18px] font-semibold mt-4 mb-8' >Submit</button>
- {success && <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
- {error && <span className="text-green-600 font-semibold">Something went wrong!</span>}
+ <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>
+ <span className="text-green-600 font-semibold">Something went wrong!</span>
                 </form>
             </div>
             </div>

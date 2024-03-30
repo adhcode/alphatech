@@ -2,7 +2,7 @@ import AboutUs from "@/components/aboutUs";
 import Foot from "@/components/foot";
 import Hero from "@/components/hero";
 import InvestmentPlan from "@/components/investPlan";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
