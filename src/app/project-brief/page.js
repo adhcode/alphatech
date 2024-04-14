@@ -3,212 +3,45 @@ const ProjectBrief = () => {
         <div className="">
 
 
-<div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
-    <div>
+<div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 text-[#2E2E2E]
+">
+    <div className="mb-16">
     <p className="text-[20px] font-normal text-[#2E2E2E]">Project Brief</p>
-    <p className="text-[32px] font-medium text-[#2E2E2E] mt-4">Here is all you need to know about our Project</p>
+    <p className="text-[32px] w-[343px] lg:w-[461px] font-medium text-[#2E2E2E] mt-4">Here is all you need to know about our Project</p>
+    </div>
+    <div className="mb-8">
+        <h2 className="text-[24px] lg:text-[32px] font-medium mb-4">Executive Summary</h2>
+        <p className="text-[14px] lg:text-[20px]">This project brief details our exciting initiative focused on affordable housing development. We invite you to explore the potential for strong financial returns while contributing to a socially impactful project.</p>
     </div>
 
-    <div className="mt-8 text-[#2E2E2E]">
-        <h2 className="text-[24px] text-[#2E2E2E] font-normal">Introduction</h2>
-        <p className="mt-4 text-[14px] font-normal">We present a comprehensive briefing on the proposed affordable housing development projects by Alphatechcity for students, aspiring landowners and aspiring homeowners in Nigeria. </p>
+    <div className="text-[14px] lg:text-[20px]">
+        <h2 className="text-[24px] lg:text-[32px] font-medium mb-4">Introduction</h2>
+        <p className="mb-4">Alphatechcity is proud to present our comprehensive plan for a series of affordable housing developments across Nigeria. This project offers investors a unique opportunity to capitalize on a growing market while making a positive social impact.</p>
+        <h3 className="mb-4 font-medium">Highlight:</h3>
+        <p className="mb-4">Meeting A Critical Need: Our affordable housing developments aim to address the significant demand for quality, accessible housing solutions in Nigeria. We cater to aspiring landowners, homeowners, young professionals, business owners, students (undergraduate and postgraduate), and investors. </p>
+        <p className="mb-4">Locations: The initial phase focuses on strategically chosen areas: Ogun State, Lagos State, and Ibadan (Oyo State). These locations boast high demand and strong growth potential. </p>
+        <p className="mb-4">Impactful Scale: Our ambitious goal is to make land, homes, student apartments, and property financing easily accessible to at least 10,000 Nigerians within 5 years. This will significantly reduce the housing deficit and improve the lives of countless individuals and families. </p>
+    </div>
 
-        <p className="mt-4 text-[14px] font-normal">This project aim to address the growing demand for affordable, modern, convenient, and technology-enabled housing solutions among citizens and student population in Nigeria.</p>
-
-        <p className="mt-4 text-[14px] font-normal">This project will make lands, homes , students apartments and property financing easily accessible to at least 10,000 people in Nigeria within 5years there by reducing and contributing positively to the housing deficit in Nigeria. </p>
-         <ol className="ml-[20px] mt-4 text-[14px] font-normal">
-        <li className="list-disc">Affordable Housing Initiative</li>
-
-        <li className="list-disc">Locations: Ogun State, Lagos & Ibadan, Oyo state</li>
-        </ol>
-
-        <p className="mt-4 text-[14px] font-medium">Target Market:<span className="text-[14px] font-normal">Aspiring Landowners, aspiring Homeowners, Young Professionals, Investors, Undergraduates and postgraduate students. </span></p>
-        <p className="mt-4 text-[14px] font-medium">Project Scope:<span className="text-[14px] font-normal">Providing access to affordable properties with world class designs, development, and operation of residential housing complex for aspiring landowners, homeowners and students with modern apartments, amenities, and technology-driven features. </span></p>
-
-        <p className="mt-4 text-[24px] font-medium">Project Focus</p>
-        <p className="mt-4 text-[14px] font-normal">To empower over 10,000+ individuals to build wealth through smart real estate fractional Investment</p>
-
-        <p className="mt-4 text-[24px] font-medium">Project benefit for investor</p>
-        <p className="mt-4 text-[14px] font-normal">Investing in this project gives access to the following benefits, as an investor you get:</p>
-
-        <ul className="ml-[20px] mt-4 text-[14px] font-normal">
-        <li className="list-decimal">Usage Right On Specific Properties</li>
-
-        <li className="list-decimal">You get High Return on your Investment</li>
-        <li className="list-decimal">You get reduced rate on any property you want to buy from the company</li>
-        </ul>
-
-        <p className="mt-4 text-[24px] font-medium">Lucrative opportunity</p>
-        <p className="mt-4 text-[14px] font-medium">Untapped Market:<span className="text-[14px] font-normal">The unaddressed demand for affordable apartments presents a vast potential market for investors and developers. Catering to this segment can be both profitable and socially impactful.  </span></p>
-        <p className="mt-4 text-[14px] font-medium">Project Scope:<span className="text-[14px] font-normal">Diversification and High Return on Investment: Tapping into this part of Real-estate allows diversification of investment with an expectation of high returns.</span></p>
-
-        <h2 className="mt-4 text-[24px] font-medium">Project features and amenities</h2>
-        <p className="mt-4 text-[14px] font-normal">High-speed Wi-Fi throughout the complex</p>
-        <p className="mt-2 text-[14px] font-normal">Smart home technology for automated security, lighting, and energy management</p>
-        <p className="mt-2 text-[14px] font-normal">Co-working spaces and study rooms</p>
-        <p className="mt-2 text-[14px] font-normal">Recreational facilities</p>
-        <p className="mt-2 text-[14px] font-normal">Secure parking spaces </p>
-        <p className="mt-2 text-[14px] font-normal">Laundry facilities and on-site maintenance services </p>
-        <p className="mt-2 text-[14px] font-normal">App-based resident portal for rent payments, communication, and service requests</p>
-
-        <h2 className="text-[24px] text-[#2E2E2E] font-medium mt-4">Technology integration</h2>
-        <p className="mt-4 text-[14px] font-normal">The project will leverage cutting-edge technology to enhance the student living experience:</p>
-
-        <ol className="ml-[20px] mt-4 text-[14px] font-normal">
-        <li className="list-disc">Smart access control and security systems </li>
-
-        <li className="list-disc">Automated utilities management for energy efficiency</li>
-        <li className="list-disc">Mobile app for booking amenities, requesting services, and interacting with management </li>
-        <li className="list-disc">Online community platform for social interaction and networking</li>
-        </ol>
-
-        <h2 className="text-[24px] text-[#2E2E2E] font-medium mt-4 ">Project timeline</h2>
-        <div className="rounded-[16px] h-[460px] border mb-8 mt-8">
-            <div className="flex justify-between h-[50px] bg-[#D2D2D2] rounded-t-[16px] p-[10px] border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Project outline</p>
-            <p>Stage</p>
-            <p>Outline</p>
-            </div>
-            <div className="flex justify-between h-[50px] p-[10px] mt-4 items-center text-[14px] font-normal border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Project Design / Permit</p>
-            <p>1</p>
-            <p>Q1 , 2024</p>
-            </div>
-            <div className="flex justify-between h-[50px] p-[10px] mt-4 items-center text-[14px] font-normal border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Project Brief/ Exhibition</p>
-            <p>2</p>
-            <p>Q1 , 2024</p>
-            </div>
-            <div className="flex justify-between h-[50px] p-[10px] mt-4 items-center text-[14px] font-normal border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Fund Raising</p>
-            <p>3</p>
-            <p>Q1 , 2024</p>
-            </div>
-            <div className="flex justify-between h-[50px] p-[10px] mt-4 items-center text-[14px] pb-4 font-normal border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Project Initiation/ Development</p>
-            <p>1</p>
-            <p>Q2 , 2024</p>
-            </div>
-            <div className="flex justify-between h-[50px] p-[10px] mt-4 items-center text-[14px] mb-2 font-normal border-b border-[#EBEBEB]">
-            <p className="w-[180px]">Marketing / Pre- Renting</p>
-            <p>1</p>
-            <p>Q2 , 2024</p>
-            </div>
-            <div className="flex justify-between h-[40px] p-[10px] mt-4 items-center text-[14px] font-normal  border-[#EBEBEB] ">
-            <p className="w-[180px]">Project Completion / Tenant Onboarding</p>
-            <p>1</p>
-            <p>Q3 , 2024</p>
-            </div>
-
-            
+    <div className="text-[14px] mb-8 lg:text-[20px]">
+        <h2 className="text-[24px] lg:text-[32px] font-medium mb-4">Project Overview</h2>
+        <p className="mb-4">Alphatechcity, Nigeria's Most hospitable real-estate company, presents a compelling investment opportunity in our affordable housing project. This project addresses the critical national issue of housing deficit, while offering investors the potential for significant returns.</p>
+        <p className="mb-4">The Nigerian housing market faces a substantial shortage of smart, affordable and accessible housing units. Alpha techcity is positioned to bridge this gap by developing smart, high-quality, yet affordable homes for students and various income class.</p>
+        <p className="mb-4">Similar to choosing to invest in Apple, the company behind the iPhone, rather than simply buying the phone itself, we invite you to consider the immense potential of investing in Alphatechcity. By partnering with us, you're not just investing in real estate, but in the future and wellbeing of Nigeria.</p>
+        <p className="mb-4">Join us in creating a positive impact and achieving exceptional returns on your investment. </p>
+        <p>Please continue to the following sections for a detailed project overview and investment benefits.</p>
         </div>
 
-        <h2>Financial Projection</h2>
-        <div className="bg-[#D2D2D2] flex justify-between rounded-t-[16px]">
-            <div className="w-[94px]">
-               
-            </div>
-            <div className="p-[16px] ml-[-20px]">
-            <p className="text-[12px] font-medium text-[#2E2E2E]">1st Year</p>
-            </div>
-            <div className="p-[16px] ml-[-20px]">
-            <p className="text-[12px] font-medium">
-                2nd Year</p>
-            </div>
-            <div className="p-[16px] ml-[-20px]">
-            <p className="text-[12px] font-medium">
-                3rd Year</p>
-            </div>
-        </div>
-        <div className="h-[460px] flex justify-between">
+        <div className="text-[14px] mb-16 lg:text-[20px]">
+        <h2 className="text-[24px] lg:text-[32px] font-medium mb-4">Who can Invest In Our Project?</h2>
+        <p className="mb-4">Have you ever dreamt of owning a piece of the real estate pie and end up feeling it's not possible? ,we're here to change that feeling! Our innovative real estate cooperative welcomes students, business owners, and salary earners to join us on a journey towards building wealth and creating a more inclusive future for all, what will you gain?</p>
+        <p className="mb-4"><span className="font-medium">1. Salary Earners: </span>As a salary Earner you can secure your financial future by investing in an asset that historically appreciates in value. You get to protect yourself from rising costs "inflation" and build a stable financial foundation generations to come. You get to invest in your future and the future of your loved ones. Owning real estate through our cooperative will create a lasting legacy that benefits generations to come.</p>
+        <p className="mb-4"><span className="font-medium">2. Business Owners: </span>: As a business owner you can secure your financial future by investing in a stable and reliable asset class like our affordable housing projects. Our cooperative offers flexible investment options that align with your risk tolerance and business goals. It is wise that you let your investment work for you while you focus on growing your business. Enjoy regular returns and build a sustainable income stream for long-term financial security.</p>
+        <p><span className="font-medium">3. Students: </span>: As a student you get a head start on building wealth while you're still young. Our cooperative provides affordable entry points into the real estate market, setting you up for financial success early on. Connect with like-minded individuals, mentors, and experienced professionals within the cooperative. This network can open doors to exciting opportunities and accelerate your career path.</p>
         
-            <div className="h-[296px] bg-[#D2D2D2] flex flex-col gap-12 pl-[10px] pr-[10px]">
-                
-                <div>
-                  <p className="text-[12px] font-normal w-[74px]">Project Focus</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">
-                    Revenue</p>
-                </div>
-                <div className="pt-[15px]">
-                <p className="text-[12px] font-normal ">
-                    Project Cost</p>
-                </div>
-                <div className="pt-[20px] w-[91px]">
-                <p className="text-[12px] font-normal ">
-                    Maintenance</p>
-                </div>
-                <div className="w-[91px]">
-                <p className="text-[12px] font-normal h-[94px]">
-                    Net Profit</p>
-                </div>
-
-            </div>
-            <div className="h-[296px]  flex flex-col gap-12 ml-[10px]">
-                
-            <div className="">
-                  <p className="text-[12px]">500 Rooms (Shared Apt)</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">
-                    N250,000,000</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">
-                N200,000,000</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">NIL</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">
-                    NIL</p>
-                </div>
-
-            </div>
-            <div className="h-[296px]  flex flex-col gap-12 ml-[10px]">
-                
-                <div className="">
-                <p className="text-[12px]">500 Rooms (Shared Apt)</p>
-                </div>
-                <div>
-                <p className="text-[12px]">NIL</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">N200,000,000</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">N25,000,000 (50K on each apartment)</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal mt-[-35px]">
-                    N175,000,000</p>
-                </div>
-
-            </div>
-            <div className="h-[296px] flex flex-col gap-12 ml-[10px]">
-                
-            <div className="">
-                <p className="text-[12px]">500 Rooms (Shared Apt)</p>
-                </div>
-                <div>
-                <p className="text-[12px]">NIL</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">N200,000,000</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">N25,000,000</p>
-                </div>
-                <div>
-                <p className="text-[12px] font-normal">
-                    N175,000,000</p>
-                </div>
-
-            </div>
         </div>
-    </div>
+
+    
     </div>
         </div>
     )

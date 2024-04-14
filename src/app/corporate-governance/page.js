@@ -16,7 +16,7 @@ const CorporateGovernance = () => {
                   {/* CORPORATE EXECUTIVES */}
 
                 <div className="mt-[30px] max-w-full">
-                    <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Cooperatives Executive</h2>
+                    <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Board of directors</h2>
                      <div className="lg:flex lg:flex-row lg:gap-4 flex flex-col justify-center items-center"> 
 
 
@@ -235,7 +235,7 @@ const CorporateGovernance = () => {
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
                          <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Chief Financial Officer</p>
+                         <p className="text-[12px]">Project Manager</p>
                          </div>
                          <div className="flex">
                             <div className="flex gap-4">
@@ -271,7 +271,7 @@ const CorporateGovernance = () => {
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
                          <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Head Of Communication</p>
+                         <p className="text-[12px]">Investment Manager</p>
                          </div>
                          <div className="flex">
                             <div className="flex gap-4">

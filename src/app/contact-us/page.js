@@ -83,24 +83,23 @@ const ContactUs = () => {
             <div className="lg:flex lg:gap-2">
             <div className="">
  
- <input type="text" placeholder="Name" className="w-[343px] lg:w-[316px] rounded-[8px] h-[50px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px]"></input>
+ <input type="text" placeholder="Name" className="w-[343px] pl-4 lg:w-[316px] rounded-[8px] h-[50px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px]"></input>
  </div>
  {/* EMAIL */}
  <div className="mt-2 lg:mt-0">
  
- <input type="text" placeholder="Email" className="w-[343px] lg:w-[316px] rounded-[8px] h-[50px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px] text-[#666666]"></input>
+ <input type="text" placeholder="Email" className="w-[343px] pl-4 lg:w-[316px] rounded-[8px] h-[50px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px] text-[#666666]"></input>
  </div>
  </div>
  {/* MESSAGE */}
  <div className="mt-2 mb-16">
  
- <textarea type="text" placeholder="Message" className="w-[343px] lg:w-[640px] rounded-[8px] h-[200px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px] resize-none"></textarea>
+ <textarea type="text" placeholder="Message" className="w-[343px] pl-4  lg:w-[640px] rounded-[8px] h-[200px] border border-[#E1E1E1] bg-[#FAFAFA] text-[16px] resize-none"></textarea>
  </div>
 
  {/* SUBMIT BUTTON */}
  <button className='w-[343px] h-[45px] bg-[#FBBB52] rounded-[24px] lg:text-[18px] font-semibold mt-4 mb-8' >Submit</button>
- <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>
- <span className="text-green-600 font-semibold">Something went wrong!</span>
+
                 </form>
             </div>
             </div>

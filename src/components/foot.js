@@ -1,55 +1,32 @@
+"use client"
+
+
 import { IoAddSharp } from "react-icons/io5";
+import { BiMinus } from "react-icons/bi";
+import Accordion from "./accordion";
+
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 
 
 
 const Foot = () => {
+
+
+
     return (
         <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 bg-[#FAFAFA]">
-        <div className="h-[838px] mt-8 lg:pl-0 pt-[40px]">
+        <div className="h-[1908px] lg:h-[800px] mt-8 lg:pl-0 pt-[40px]">
             <div className="lg:flex lg:w-[1280px] lg:flex-row-reverse lg:items-center lg:justify-between lg:h-[588px]">
                 <div className="lg:w-[626px] lg:mr-[50px] lg-mt-[10px]">
-                    <div className="flex items-center justify-between w-[343px] lg:w-[626px] ">
-                     <p className="text-[16px] lg:text-[24px] lg:w-[550px] font-medium">Who can join our cooperative?</p>
-                     
-                     <div className="text-[24px] ">
-                     <IoAddSharp />
-                     </div>
-                    </div>
-                    <div className="flex items-center justify-between w-[343px] lg:w-[626px] mt-[30px]">
-                     <p className="text-[16px] lg:text-[24px] lg:w-[550px] font-medium">What is the project about?</p>
-                     
 
-                     <div className="text-[24px] ">
-                     <IoAddSharp />
-                     </div>
-                    </div>
-                    <div className="flex items-center justify-between w-[343px] lg:w-[626px]  mt-[30px]">
-                     <p className="text-[16px] lg:text-[24px] lg:w-[550px] font-medium">Project benefits for investors</p>
-                     
-
-                     <div className="text-[24px] ">
-                     <IoAddSharp />
-                     </div>
-                    </div>
-                    <div className="flex items-center justify-between w-[343px] lg:w-[626px]  mt-[30px]">
-                     <p className="text-[16px] lg:text-[24px] lg:w-[550px] font-medium">What is minimum investment plan?</p>
-                     
-
-                     <div className="text-[24px]">
-                     <IoAddSharp />
-                     </div>
-                    </div>
-                    <div className="flex items-center justify-between w-[343px] lg:w-[626px]  mt-[30px]">
-                     <p className="text-[16px] lg:text-[24px] lg:w-[550px] font-medium w-[299px]">Is there a limit to the number of investment i can make?</p>
-                     
-
-                     <div className="text-[24px] ">
-                     <IoAddSharp />
-                     </div>
-                    </div>
+                    
+                <div className="p-4  rounded-lg">
+     <Accordion/>
+    </div>
                 </div>
 
                 <div className="mt-8 lg:w-[466px] lg:items-center lg:flex lg:flex-col lg:ml-[100px]">

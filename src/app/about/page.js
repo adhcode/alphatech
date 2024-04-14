@@ -30,18 +30,18 @@ const AboutPage = () => {
                 <div className="pt-8 lg:pt-16 pl-[16px] lg:pr-[155px] lg:pl-[155px] pr-[16px]">
 
                     <p className="text-[#FAFAFA] text-[24px] font-medium lg:text-[32px]">Our Goal</p>
-                    <p className="text-[#D7D7D7] text-[20px] mt-4 font-normal">At Alphatechcity,  we believe in breaking down barriers and making real estate accessible to everyone. It's not just about buying and selling property; it's about unlocking the dream of homeownership for all!</p>
+                    <p className="text-[#D7D7D7] text-[14px] lg:text-[16px] mt-4 font-normal">At Alphatechcity,  we believe in breaking down barriers and making real estate accessible to everyone. It's not just about buying and selling property; it's about unlocking the dream of homeownership for all!</p>
                 </div>
 
                 <div className="pl-[16px] pr-[16px] lg:pr-[155px] lg:pl-[155px] mt-8 lg:mt-16 lg:flex lg:gap-[190px]">
                     
 
                     <div className="lg:w-[400px] ">
-                    <p className="text-[24px] text-[#FAFAFA] lg:text-[32px]">Our Mission</p>
-                         <p className="text-[16px] font-normal text-[#FAFAFA] mt-4">
+                    <p className="text-[24px] text-[#FAFAFA] font-medium lg:text-[32px]">Our Mission</p>
+                         <p className="text-[14px] lg:text-[16px] font-normal text-[#FAFAFA] mt-4">
                          "On a mission to unlock the dream of property ownership for all, creating a more inclusive and prosperous society"</p>
 
-<p className="text-[16px] font-normal mt-4 text-[#FAFAFA]">We don't just want to help people buy property; we want to help them build wealth and security. By increasing homeownership across demographics, we contribute to a more inclusive and prosperous society for everyone.
+<p className="text-[14px] lg:text-[16px] font-normal mt-4 text-[#FAFAFA]">We don't just want to help people buy property; we want to help them build wealth and security. By increasing homeownership across demographics, we contribute to a more inclusive and prosperous society for everyone.
                          </p>
                 </div>
 
@@ -59,10 +59,10 @@ const AboutPage = () => {
                     <div className="lg:w-[400px]">
                     <p className="text-[24px] text-[#FAFAFA] lg:text-[32px]">Our Vision</p>
                     <div>
-                         <p className="text-[16px] font-normal text-[#FAFAFA] mt-4">
+                         <p className="text-[14px] lg:text-[16px] font-normal text-[#FAFAFA] mt-4">
                          "To break down barriers and open the doors of real estate to everyone"</p>
 
-<p className="text-[16px] font-normal mt-4 text-[#FAFAFA]">We understand that traditional processes can be intimidating and exclusive. We strive to eliminate those barriers and empower everyone to participate in the real estate market
+<p className="text-[14px] lg:text-[16px] font-normal mt-4 text-[#FAFAFA]">We understand that traditional processes can be intimidating and exclusive. We strive to eliminate those barriers and empower everyone to participate in the real estate market
                          </p>
                          </div>
                          </div>

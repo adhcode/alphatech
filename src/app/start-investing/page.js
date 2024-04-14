@@ -50,14 +50,14 @@ const StartInvesting = () => {
     
  </select>
 <div>
- <label className="flex items-center justify-between mt-4 mb-2">
+ <label className="flex items-center justify-between mt-4 pl-4 mb-2">
     <p className="text-[16px]">Full Name:</p>
 
     <CgClose className="h-[16px] w-[16px] text-[#FF4444]" />
 
     
  </label>
- <input type="text" placeholder="Full name" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="text" placeholder="Full name" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  <div>
  <label className="flex items-center justify-between mt-4 mb-2">
@@ -66,7 +66,7 @@ const StartInvesting = () => {
 
     
  </label>
- <input type="text" placeholder="Email Address" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="text" placeholder="Email Address" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  <div>
  <label className="flex items-center justify-between mt-4 mb-2">
@@ -75,7 +75,7 @@ const StartInvesting = () => {
 
     
  </label>
- <input type="number" placeholder="Phone number" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="number" placeholder="Phone number" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  <div>
  <label className="flex items-center justify-between mt-4 mb-2">
@@ -84,7 +84,7 @@ const StartInvesting = () => {
 
     
  </label>
- <input type="number" placeholder="Whatsapp Number" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="number" placeholder="Whatsapp Number" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  
  <div>
@@ -94,7 +94,7 @@ const StartInvesting = () => {
 
     
  </label>
- <input type="text" placeholder="Occupation" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="text" placeholder="Occupation" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  <div>
  <label className="flex items-center justify-between mt-4 mb-2">
@@ -103,7 +103,7 @@ const StartInvesting = () => {
 
     
  </label>
- <input type="text" placeholder="Home Address" className="w-full rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
+ <input type="text" placeholder="Home Address" className="w-full pl-4 rounded-[24px] h-[40px] border border-[#E1E1E1]"></input>
  </div>
  <div>
  <label className="flex items-center justify-between mt-4 mb-2">
