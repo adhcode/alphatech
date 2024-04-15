@@ -12,11 +12,11 @@ const AboutPage = () => {
              
              <div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
                 <p className="text-[20px] text-[#2E2E2E] font-medium">About Alphatechcity</p>
-                <p className="text-[32px] text-[#2E2E2E] font-medium leading-[36.77px] mt-4">We set out to build a way to make your money work for you</p>
+                <p className="text-[32px] text-[#2E2E2E] font-medium leading-[36.77px] mt-4 lg:w-[502px]">We set out to build a way to make your money work for you</p>
 
-                <div className='mt-4'>
+                <div className='mt-4 lg:flex lg:mt-10 space-x-8'>
                 <GetStarted />
-                <Link href="/master-class"><button className='flex items-center lg:text-[18px] gap-2 w-[296px] lg:w-[325px] bg-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] mt-4 mb-16'>
+                <Link href="/master-class"><button className='flex items-center lg:text-[18px] gap-2 w-[296px] lg:w-[325px] bg-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] mt-4 mb-16 lg:mt-0'>
                     Sign up for monthly masterclass
                     <GoArrowUpRight />
 
@@ -30,7 +30,7 @@ const AboutPage = () => {
                 <div className="pt-8 lg:pt-16 pl-[16px] lg:pr-[155px] lg:pl-[155px] pr-[16px]">
 
                     <p className="text-[#FAFAFA] text-[24px] font-medium lg:text-[32px]">Our Goal</p>
-                    <p className="text-[#D7D7D7] text-[14px] lg:text-[16px] mt-4 font-normal">At Alphatechcity,  we believe in breaking down barriers and making real estate accessible to everyone. It's not just about buying and selling property; it's about unlocking the dream of homeownership for all!</p>
+                    <p className="text-[#D7D7D7] text-[14px] lg:text-[24px] mt-4 font-normal">At Alphatechcity, we believe in breaking down barriers and making real estate accessible to everyone. It's not just about buying and selling property; it's about unlocking the dream of homeownership for all!</p>
                 </div>
 
                 <div className="pl-[16px] pr-[16px] lg:pr-[155px] lg:pl-[155px] mt-8 lg:mt-16 lg:flex lg:gap-[190px]">
@@ -39,10 +39,9 @@ const AboutPage = () => {
                     <div className="lg:w-[400px] ">
                     <p className="text-[24px] text-[#FAFAFA] font-medium lg:text-[32px]">Our Mission</p>
                          <p className="text-[14px] lg:text-[16px] font-normal text-[#FAFAFA] mt-4">
-                         "On a mission to unlock the dream of property ownership for all, creating a more inclusive and prosperous society"</p>
+                         We are on a mission to unlock the dream of property ownership for all. By creating inclusive and accessible investment opportunities, we aim to build a more prosperous society where everyone can thrive.</p>
 
-<p className="text-[14px] lg:text-[16px] font-normal mt-4 text-[#FAFAFA]">We don't just want to help people buy property; we want to help them build wealth and security. By increasing homeownership across demographics, we contribute to a more inclusive and prosperous society for everyone.
-                         </p>
+
                 </div>
 
                     <div className="relative w-[343px] h-[200px] lg:w-[500px] lg:h-[200px] mt-4">
@@ -59,10 +58,9 @@ const AboutPage = () => {
                     <div className="lg:w-[400px]">
                     <p className="text-[24px] text-[#FAFAFA] lg:text-[32px]">Our Vision</p>
                     <div>
-                         <p className="text-[14px] lg:text-[16px] font-normal text-[#FAFAFA] mt-4">
-                         "To break down barriers and open the doors of real estate to everyone"</p>
+                         
 
-<p className="text-[14px] lg:text-[16px] font-normal mt-4 text-[#FAFAFA]">We understand that traditional processes can be intimidating and exclusive. We strive to eliminate those barriers and empower everyone to participate in the real estate market
+<p className="text-[14px] lg:text-[16px] font-normal mt-4 text-[#FAFAFA]">Driven by the value of hospitality, Alphatechcity Limited envisions a Nigeria where everyone has access to real estate ownership. We strive to break down financial barriers and open the doors of this valuable asset class to all Nigerians.
                          </p>
                          </div>
                          </div>

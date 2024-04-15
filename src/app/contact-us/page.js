@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 
 
@@ -63,7 +64,7 @@ const ContactUs = () => {
 
               </div>
               <div className="rounded-full h-[48px] w-[48px] bg-[#E0D9FC] flex items-center justify-center">
-              <FaInstagram className="h-[24px] w-[24px]" / >
+              <Link href="https://www.instagram.com/alpha_techcity?igsh=cmc2Zm5vazlwZngz"><FaInstagram className="h-[24px] w-[24px]" / ></Link>
 
               </div>
               <div className="rounded-full h-[48px] w-[48px] bg-[#E0D9FC] flex items-center justify-center">

@@ -8,9 +8,9 @@ const CorporateGovernance = () => {
         <div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
             <div>
                  {/* CORPORATE GOVERNANCE */}
-                <div>
+                <div className="lg:mb-16">
                     <p className="text-[20px] font-normal">Meet the Corporate Governance</p>
-                    <h2 className="text-[32px] font-medium leading-[36.77px] mt-[20px]">Meet the Team that is Revolutionizing Real-Estate Investment world</h2>
+                    <h2 className="text-[32px] font-medium leading-[36.77px] lg:w-[579px] mt-[20px]">Meet the Team that is Revolutionizing Real-Estate Investment world</h2>
                 </div>
 
                   {/* CORPORATE EXECUTIVES */}

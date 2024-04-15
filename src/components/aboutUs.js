@@ -10,9 +10,9 @@ const AboutUs = () => {
         <div className="ml-[5px] lg:ml-[20px] mt-[-120px] px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32">
         <div className="">
             <h2 className="text-[14px] font-normal">About Us</h2>
-            <p className="text-[24px] w-[293px] font-medium mt-2 lg:w-[502px]">We set out to build a way to make your money work for you</p>
+            <p className="text-[24px] w-[293px] font-medium mt-2 lg:w-[502px]">We set out to create a platform that makes your money work for you</p>
         </div>
-        <div className="mt-6 md:flex md:gap-8 lg:flex xl:flex"> 
+        <div className="mt-6 md:flex md:gap-8 lg:flex xl:flex lg:items-center lg:mb-16"> 
         <div className="relative w-[343px] h-[224px] lg:w-[550px] lg:h-[360px]">
 <Image className=""
             src="/aboutus.png"
@@ -23,12 +23,10 @@ const AboutUs = () => {
 
 </div>
           <div>
-            <h2 className="font-medium text-[16px]  mt-4">Alphatechcity Wealth X</h2>
-            <p className="text-[14px] w-[343px] xl:w-[537px] font-normal text-[#666666] mt-4">Alphatechcity Wealth X "A Cooperative" is a registered real-estate Investment platform that allows different investors key/Invest into our real-estate projects without owning a property but still get a consistent return on their Investment. </p>
+            <h2 className="font-medium text-[16px]  mt-4">About Alpha techcity Limited</h2>
+            <p className="text-[14px] w-[343px] xl:w-[537px] font-normal text-[#666666] mt-4">Alpha techcity Limited is Nigeria's most hospitable realestate company. We offer a unique opportunity through our registered real estate investment cooperative. This allows investors of all financial backgrounds to participate in our fractional ownership projects, securing consistent annual returns on their investments.</p>
 
-<p className="text-[14px] w-[343px] xl:w-[537px] font-normal text-[#666666] mt-4">This Investment is called the "Fractional Ownership Investment". It's an Investment approach in which the cost of a project or an asset is divided between shareholders or Investors. </p>
 
-<p className="text-[14px] w-[343px] xl:w-[537px] font-normal text-[#666666] mt-4">Our Cooperative "WealthX" is a membership based Cooperative, with membership granted by way of Investment or by saving in the cooperative. </p>
 <button className='flex items-center gap-2 w-[147px] bg-[#FFFFFF] border border-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] mt-4 lg:mt-8 hover:bg-transparent hover:transition-all duration-300 hover:text-[#FBBB52] hover:border-[2px] hover:border-[#EBEBEB]'>
                     Learn more
                     <GoArrowUpRight />

@@ -60,8 +60,8 @@ const Footer = () => {
                             <div className='rounded-full w-[24px] h-[24px] bg-[#FBBB52] justify-center items-center flex'>
                             <FaTwitter className='text-[#2E2E2E]' />
                             </div>
-                            <div className='rounded-full w-[24px] h-[24px] bg-[#FBBB52] justify-center items-center flex'>
-                            <FaInstagram className='text-[#2E2E2E]' />
+                             <div className='rounded-full w-[24px] h-[24px] bg-[#FBBB52] justify-center items-center flex'>
+                            <Link href="https://www.instagram.com/alpha_techcity?igsh=cmc2Zm5vazlwZngz"><FaInstagram className='text-[#2E2E2E]' /></Link>
                             </div>
                             <div className='rounded-full w-[24px] h-[24px] bg-[#FBBB52] justify-center items-center flex'>
                             <FaLinkedinIn className='text-[#2E2E2E]' />
