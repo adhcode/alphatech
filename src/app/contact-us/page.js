@@ -68,7 +68,7 @@ const ContactUs = () => {
 
               </div>
               <div className="rounded-full h-[48px] w-[48px] bg-[#E0D9FC] flex items-center justify-center">
-              <FaLinkedinIn className="h-[24px] w-[24px]" / >
+              <Link href="https://www.linkedin.com/company/alphatechcity/"><FaLinkedinIn className="h-[24px] w-[24px]" / ></Link>
 
               </div>
               </div>
