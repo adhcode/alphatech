@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { GoArrowUpRight } from "react-icons/go";
 import GetStarted from "./getStarted";
+import Link from "next/link";
 
 
 
@@ -27,11 +28,11 @@ const AboutUs = () => {
             <p className="text-[14px] w-[343px] xl:w-[537px] font-normal text-[#666666] mt-4">Alpha techcity Limited is Nigeria's most hospitable realestate company. We offer a unique opportunity through our registered real estate investment cooperative. This allows investors of all financial backgrounds to participate in our fractional ownership projects, securing consistent annual returns on their investments.</p>
 
 
-<button className='flex items-center gap-2 w-[147px] bg-[#FFFFFF] border border-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] mt-4 lg:mt-8 hover:bg-transparent hover:transition-all duration-300 hover:text-[#FBBB52] hover:border-[2px] hover:border-[#EBEBEB]'>
+            <Link href="/about"><button className='flex items-center gap-2 w-[147px] bg-[#FFFFFF] border border-[#EBEBEB] h-[44px] pl-[20px] rounded-[24px] mt-4 lg:mt-8 hover:bg-transparent hover:transition-all duration-300 hover:text-[#FBBB52] hover:border-[2px] hover:border-[#EBEBEB]'>
                     Learn more
-                    <GoArrowUpRight />
+                   <GoArrowUpRight />
 
-                </button>
+                </button></Link>
           </div>
         </div>
 {/* JOIN US */}
@@ -42,10 +43,10 @@ const AboutUs = () => {
 <h2 className="text-[14px] font-normal lg:text-[16px]">Join Us</h2>
 <div className="lg:flex lg:gap-[250px]">
 <div>
-            <p className="text-[24px] w-[343px] font-medium mt-4 text-[#2E2E2E] leading-[27.58px] lg:text-[32px] lg:w-[502px]">How can you actively participate In Wealth X ?</p>
+            <p className="text-[24px] w-[343px] font-medium mt-4 text-[#2E2E2E] leading-[27.58px] lg:text-[32px] lg:w-[502px]">How Can Members/Investors Participate In The Cooperative?</p>
             </div>
             <div>
-            <p className="text-[16px] lg:text-[18px] lg:w-[326px] w-[326px] font-medium mt-4 text-[#666666] leading-[18.38px]">As a member or Investor, you can engage in either of the following in the Cooperative</p>
+            <p className="text-[16px] lg:text-[18px] lg:w-[326px] w-[326px] font-medium mt-4 text-[#666666] leading-[18.38px]">As an aspiring member or a potential Investor, you can engage in either of the following in the Cooperative.</p>
             </div>
             </div>
 

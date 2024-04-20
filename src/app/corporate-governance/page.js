@@ -1,11 +1,12 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 
 
 const CorporateGovernance = () => {
     return (
-        <div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
+        <div className="mt-[50px] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 mb-[50px]">
             <div>
                  {/* CORPORATE GOVERNANCE */}
                 <div className="lg:mb-16">
@@ -16,7 +17,7 @@ const CorporateGovernance = () => {
                   {/* CORPORATE EXECUTIVES */}
 
                 <div className="mt-[30px] max-w-full">
-                    <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Board of directors</h2>
+                    <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Management Team</h2>
                      <div className="lg:flex lg:flex-row lg:gap-4 flex flex-col justify-center items-center"> 
 
 
@@ -25,32 +26,33 @@ const CorporateGovernance = () => {
                 <div className="mt-[10px] md:mt-[20px]">
                 <div className="w-[343px] h-[307px] border border-[#E1E1E1] flex flex-col items-center justify-center gap-4 rounded-[8px]">
                 <Image className=" "
-            src="/team.png"
+            src="/ohikhena.png"
             width={120}
             height={120}
             alt="Chairman"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[24px] font-extrabold">First and Last Name</p>
-                         <p className="text-[14px] font-medium">Chairman</p>
+                         <p className="text-[24px] font-extrabold">Ohikhena Gabriel</p>
+                         <p className="text-[14px] font-medium">Chief Executive Officer</p>
                          </div>
                          <div className="flex">
                             <div className="flex gap-4">
                             <Image className=" "
-            src="/tweet.png"
+            src="/linkedin.png"
             width={24}
             height={24}
             alt="x"
             
                          />
-                         <Image className=" "
+                         <Link href="https://www.instagram.com/ohikhenagabriel?igsh=MWNkeGtvNGdzZ2IxMg=="><Image className=" "
             src="/insta.png"
             width={24}
             height={24}
             alt="instagram"
             
                          />
+                         </Link>
                             </div>
                          </div>
 
@@ -63,32 +65,33 @@ const CorporateGovernance = () => {
                 <div className="mt-[20px]">
                 <div className="w-[343px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
                 <Image className=" "
-            src="/team.png"
+            src="/adenola.png"
             width={120}
             height={120}
             alt="Co Chair"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[24px] font-extrabold">First and Last Name</p>
-                         <p className="text-[14px] font-medium">Co - Chair</p>
+                         <p className="text-[24px] font-extrabold">Adenola Precious</p>
+                         <p className="text-[14px] font-medium">Chief Operational Officer</p>
                          </div>
                          <div className="flex">
                             <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
+                            <Link href="https://www.linkedin.com/in/precious-ola-44922a1a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><Image className=" "
+            src="/linkedin.png"
             width={24}
             height={24}
             alt="x"
             
-                         />
-                         <Image className=" "
+                         /></Link>
+                           <Link href="https://www.instagram.com/precious.ola?igsh=OG1leDB5ZzFpZ2Ni"><Image className=" "
             src="/insta.png"
             width={24}
             height={24}
             alt="instagram"
             
                          />
+                         </Link>
                             </div>
                          </div>
 
@@ -101,32 +104,33 @@ const CorporateGovernance = () => {
                 <div className="mt-[20px]">
                 <div className="w-[343px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
                 <Image className=" "
-            src="/team.png"
+            src="/nwoye.png"
             width={120}
             height={120}
             alt="executive director"
             
                          />
                          <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[24px] font-extrabold">First and Last Name</p>
-                         <p className="text-[14px] font-medium">Non - Executive Director</p>
+                         <p className="text-[24px] font-extrabold">Nwoye Emmanuel</p>
+                         <p className="text-[14px] font-medium">Project Manager</p>
                          </div>
                          <div className="flex">
                             <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
+                            <Link href="https://www.linkedin.com/in/emmanuel-nwoye-234b2a100?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><Image className=" "
+            src="/linkedin.png"
             width={24}
             height={24}
             alt="x"
             
-                         />
-                         <Image className=" "
+                         /></Link>
+                         <Link href="https://www.instagram.com/emmanuelnwoye_/"><Image className=" "
             src="/insta.png"
             width={24}
             height={24}
             alt="instagram"
             
                          />
+                         </Link>
                             </div>
                          </div>
 
@@ -142,323 +146,9 @@ const CorporateGovernance = () => {
             </div>
 
 
-            {/* MANAGEMENT STAFF */}
+           
 
-            <div className="mt-[40px] max-w-full">
-                <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Management Staffs</h2>
-                <div className="mt-[20px] lg:flex lg:flex-row lg:gap-4 flex flex-col justify-center items-center">
-                  <div className="flex gap-4">
-
-                     {/* Chief Executive Officer */}
-
-                  <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex flex-col items-center justify-center gap-4 rounded-[8px]">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="Chief executive officer"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="">First and Last Name</p>
-                         <p className="text-[12px]">Chief Executive Officer</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-
-                    {/* Chief Operational Officer */}
-
-                    <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="Chief operational officer"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Chief Operational Officer</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-                  </div>
-                  <div className="flex gap-4 mt-[20px] lg:mt-0">
-
-                    {/* Chief Financial Officer */}
-
-                  <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="Chief Financial Officer"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Project Manager</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-
-                     {/* Head Of Communication */}
-
-                    <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="head of communication"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Investment Manager</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-                  </div>
-
-
-                </div>
-            </div>
-
-            {/* Cooperatives Executive */}
-
-
-            <div className="mt-[40px] mb-[170px]">
-                <h2 className="text-[24px] font-medium flex justify-center md:text-[32px]">Cooperatives Executive</h2>
-                <div className="mt-[20px] lg:flex lg:flex-row lg:gap-4 flex flex-col justify-center items-center">
-                  <div className="flex gap-4">
-
-
-                    {/* President */}
-
-                  <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="president"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">President</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-
-                    {/* Vice - President */}
-
-                    <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="vice president"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Vice - President</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-                  </div>
-                  <div className="flex gap-4 mt-[20px] lg:mt-0">
-
-                    {/* Secretary */}
-
-                  <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px] ">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="secretary"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Secretary</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-
-                    {/* Treasurer */}
-
-                    <div className="w-[163px] md:w-[265px] h-[307px] border border-[#E1E1E1] flex  flex-col items-center justify-center gap-4 rounded-[8px]">
-                <Image className=" "
-            src="/team.png"
-            width={120}
-            height={120}
-            alt="treasurer"
-            
-                         />
-                         <div className="flex flex-col gap-0 items-center justify-center ">
-                         <p className="text-[14px] font-medium">First and Last Name</p>
-                         <p className="text-[12px]">Treasurer</p>
-                         </div>
-                         <div className="flex">
-                            <div className="flex gap-4">
-                            <Image className=" "
-            src="/tweet.png"
-            width={24}
-            height={24}
-            alt="x"
-            
-                         />
-                         <Image className=" "
-            src="/insta.png"
-            width={24}
-            height={24}
-            alt="instagram"
-            
-                         />
-                            </div>
-                         </div>
-
-
-                    </div>
-                  </div>
-
-
-                </div>
-            </div>
+           
         </div>
     )
 }
