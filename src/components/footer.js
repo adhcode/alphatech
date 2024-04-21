@@ -47,7 +47,7 @@ const Footer = () => {
                          <div className='mt-8'>
 
                          <p className='text-[#FFFFFF] text-[14px] font-normal'>Contact us</p>
-                         <p className='text-[#FBBB52] mt-2'>contact@alphatech.com</p>
+                         <p className='text-[#FBBB52] mt-2'>contact@alphatechcity.com</p>
                          <p className='text-[#FBBB52] mt-2'>081 407 353 63 / 070 533 182 03</p>
                          </div>
 
